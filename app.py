@@ -31,7 +31,21 @@ drivers = {
         "wins": 25,
         "championships": 3,
         "country": "Austria"
-    }
+    },
+     "antonelli": {
+        "name": "Kimi Antonelli",
+        "team": "Mercedes Junior Team",
+        "wins": 0,
+        "championships": 0,
+        "country": "Italy"
+    },
+    "schumacher": {
+        "name": "Michael Schumacher",
+        "team": "Ferrari",
+        "wins": 91,
+        "championships": 7,
+        "country": "Germany"
+    },
 }
 # Home route
 @app.route('/')
